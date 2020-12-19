@@ -1,0 +1,19 @@
+.button {
+  min-width: 100px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  background-color: transparent;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+  transform: scale(1.15);
+  background-color: rgba(43, 255, 0, 0.979);
+  border-color: rgb(245, 10, 10);
+  color: #2e0d88;
+}
